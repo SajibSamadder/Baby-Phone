@@ -1,0 +1,49 @@
+.number-wrapper {
+    background: #fbea0f;
+  }
+  .number-pad {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+    padding-bottom: 20px;
+  }
+  .number-pad .number {
+    padding: 12px 0;
+  }
+  .number-pad .number a img {
+    height: 60px;
+  
+  }
+  .number-pad .number:nth-child(10) a img {
+    width: 70px;
+    object-fit: cover;
+    border-radius: 19px 23px 22px 22px;
+    border: inset;
+    border: 3px inset #9100b5;
+  }
+  .number-pad .number:nth-child(11) a img {
+    border-radius: 10px 20px 20px 30px;
+    animation: rotaet .6s ease-in-out infinite;
+  }
+  @keyframes rotaet {
+    0%{
+      transform: rotate(10deg);
+    }
+    25%{
+      transform: rotate(0deg);
+    }
+    50%{
+      transform: rotate(10deg);
+    }
+    75%{
+      transform: rotate(0deg);
+    }
+    100%{
+      transform: rotate(10deg);
+    }
+  }
+  .audioWrapper audio {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+  }

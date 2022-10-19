@@ -1,0 +1,16 @@
+.number-fild{
+    height: 200px;
+    width: 100%;
+    background-color: #fff;
+}
+
+  .number-fild h1 {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 125px;
+    color: #0087ff;
+  }

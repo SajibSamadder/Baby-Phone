@@ -1,0 +1,32 @@
+
+/* Inline #2 | http://localhost:3000/ */
+
+nav {
+    padding-left: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    padding-top: 12px;
+  }
+  
+  
+  .nav-icon {
+    width: 100%;
+  }
+  
+  header nav a img {
+    height: 30px;
+    width: auto;
+  }
+  
+  header {
+    /* background: #e9dc19; */
+    background: #fae90e;
+
+  }
+ 
+
+.border-bottom{
+    height: 10px;
+    background-color: rgb(0, 166, 255);
+    width: 100%;
+}

@@ -1,0 +1,8 @@
+body{
+  background-color: rgba(24, 24, 24, 0.151);
+}
+.App{
+  width: 400px;
+  height: 100vh;
+  margin: auto;
+}
